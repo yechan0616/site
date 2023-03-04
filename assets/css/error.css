@@ -1,0 +1,155 @@
+@import url("https://cdn.jsdelivr.net/gh/orioncactus/pretendard@v1.3.6/dist/web/static/PretendardStd-Light.css");
+
+
+* {
+    font-family: 'pretendard Std';
+    margin: 0;
+    padding: 0;
+    color: var(--main-color-white);
+    box-sizing: border-box;
+    cursor: default;
+    -ms-user-select: none;
+    -moz-user-select: -moz-none;
+    -khtml-user-select: none;
+    -webkit-user-select: none;
+    user-select: none;
+}
+
+body {
+    background: var(--main-bg-yrb);
+    height: 100vh;
+    overflow: hidden;
+    background-color: #F0F8FF;
+}
+
+@media only screen and (max-width: 767px){
+    .box {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        min-width: 300px;
+        max-width: 400px;
+        min-height: 230px;
+        background: white;
+        border-radius: 20px;
+        box-shadow: 0 0 50px rgba(0, 0, 0, 0.230);
+    }
+
+    .close {
+        position: absolute;
+        left: 30px;
+        top: 25px;
+        width: 20px;
+        height: 20px;
+        border: 3px solid rgba(0,0,0,0.2);
+        border-radius: 50px;
+        background: #ff5f57;
+        background-blend-mode: normal;
+    }
+    
+    .hide {
+        position: absolute;
+        left: 65px;
+        top: 25px;
+        width: 20px;
+        height: 20px;
+        border: 3px solid rgba(0,0,0,0.2);
+        border-radius: 50px;
+        background: #febc2e;
+        background-blend-mode: normal;
+    }
+    
+    .zoom {
+        position: absolute;
+        left: 100px;
+        top: 25px;
+        width: 20px;
+        height: 20px;
+        border: 3px solid rgba(0,0,0,0.2);
+        border-radius: 50px;
+        background: #28c840;
+        background-blend-mode: normal;
+    }
+    
+    .Errortitle {
+        color: var(--main-color-white);
+        padding-top: 27%;
+        text-align: center;
+        font-size: 27px;
+    }
+    
+    .Errorcode {
+        font-weight: bold;
+        color: var(--main-color-white);
+        padding-top: 1.5%;
+        text-align: center;
+        font-size: 45px;
+    }
+}
+
+@media only screen and (min-width: 768px) {
+    .box {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        min-width: 500px;
+        max-width: 400px;
+        min-height: 330px;
+        background: white;
+        border-radius: 20px;
+        box-shadow: 0 0 50px rgba(0, 0, 0, 0.230);
+    }
+    
+    .close {
+        position: absolute;
+        left: 30px;
+        top: 25px;
+        width: 22px;
+        height: 22px;
+        border: 3px solid rgba(0,0,0,0.2);
+        border-radius: 50px;
+        background: #ff5f57;
+        background-blend-mode: normal;
+    }
+    
+    .hide {
+        position: absolute;
+        left: 68px;
+        top: 25px;
+        width: 22px;
+        height: 22px;
+        border: 3px solid rgba(0,0,0,0.2);
+        border-radius: 50px;
+        background: #febc2e;
+        background-blend-mode: normal;
+    }
+    
+    .zoom {
+        position: absolute;
+        left: 108px;
+        top: 25px;
+        width: 22px;
+        height: 22px;
+        border: 3px solid rgba(0,0,0,0.2);
+        border-radius: 50px;
+        background: #28c840;
+        background-blend-mode: normal;
+    }
+    
+    .Errortitle {
+        color: var(--main-color-white);
+        padding-top: 23%;
+        text-align: center;
+        font-size: 40px;
+    }
+    
+    .Errorcode {
+        font-weight: bold;
+        color: var(--main-color-white);
+        padding-top: 1.5%;
+        text-align: center;
+        font-size: 50px;
+    }
+}
